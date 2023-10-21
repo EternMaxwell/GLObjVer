@@ -1,7 +1,8 @@
-package globj;
+package com.maxwell_dev.globj;
+
+import org.lwjgl.opengl.GL46;
 
 import static org.lwjgl.opengl.GL46.*;
-import org.lwjgl.opengl.GL46;
 
 public class Query implements glInterface {
     private final int id;

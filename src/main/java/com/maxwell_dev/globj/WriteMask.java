@@ -1,4 +1,4 @@
-package globj;
+package com.maxwell_dev.globj;
 
 import java.util.LinkedList;
 

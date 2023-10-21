@@ -1,8 +1,8 @@
-package globj.texture;
+package com.maxwell_dev.globj.texture;
 
 import globj.Texture;
 
-import static org.lwjgl.opengl.GL45.*;
+import static org.lwjgl.opengl.GL45.GL_TEXTURE_RECTANGLE;
 
 /**
  * When using rectangle samplers, all texture lookup functions automatically use non-normalized texture coordinates. This means that the values of the texture coordinates span (0..W, 0..H) across the texture, where the (W,H) refers to its dimensions in texels, rather than (0..1, 0..1). For example, the value 12.5 is the center of the 13th texel and the value 0 is the left side of the 1st texel.

@@ -1,15 +1,11 @@
-package globj;
+package com.maxwell_dev.globj;
 
 import org.lwjgl.opengl.GL45;
 
-import static org.lwjgl.opengl.GL30.GL_COLOR_ATTACHMENT0;
-import static org.lwjgl.opengl.GL30.GL_DEPTH_ATTACHMENT;
-import static org.lwjgl.opengl.GL30.GL_DEPTH_STENCIL_ATTACHMENT;
-import static org.lwjgl.opengl.GL30.GL_STENCIL_ATTACHMENT;
-import static org.lwjgl.opengl.GL30.glDeleteFramebuffers;
-import static org.lwjgl.opengl.GL45.*;
-
 import java.util.LinkedList;
+
+import static org.lwjgl.opengl.GL30.*;
+import static org.lwjgl.opengl.GL45.*;
 
 public class Framebuffer implements glInterface {
     private final int id;

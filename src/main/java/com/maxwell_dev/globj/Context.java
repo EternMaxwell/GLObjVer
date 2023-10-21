@@ -1,4 +1,4 @@
-package globj;
+package com.maxwell_dev.globj;
 
 import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GLCapabilities;

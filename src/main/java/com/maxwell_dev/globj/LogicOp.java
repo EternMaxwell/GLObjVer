@@ -1,7 +1,8 @@
-package globj;
+package com.maxwell_dev.globj;
 
-import static org.lwjgl.opengl.GL46.*;
 import org.lwjgl.opengl.GL46;
+
+import static org.lwjgl.opengl.GL46.GL_COPY;
 
 public class LogicOp {
     private int op;

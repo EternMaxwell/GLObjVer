@@ -1,8 +1,8 @@
-package globj.texture;
+package com.maxwell_dev.globj.texture;
 
 import globj.Texture;
 
-import static org.lwjgl.opengl.GL45.*;
+import static org.lwjgl.opengl.GL45.GL_TEXTURE_1D;
 
 public class Texture_1D extends Texture {
     /**

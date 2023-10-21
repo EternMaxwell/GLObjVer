@@ -1,4 +1,4 @@
-package globj;
+package com.maxwell_dev.globj;
 
 import static org.lwjgl.opengl.GL15.glDeleteBuffers;
 import static org.lwjgl.opengl.GL45.*;

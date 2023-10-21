@@ -1,6 +1,7 @@
-package globj;
+package com.maxwell_dev.globj;
 
 import org.lwjgl.opengl.GL45;
+
 import static org.lwjgl.opengl.GL45.*;
 
 public class Texture implements glInterface {
@@ -1330,7 +1331,7 @@ public class Texture implements glInterface {
     /**
      * get the parameter object for GL_TEXTURE_COMPARE_FUNC
      * <p>the available param value for this are:</p>
-     * <p>{@link org.lwjgl.opengl.GL45#GL_NEVER} {@link GL45#GL_LESS} {@link GL45#GL_EQUAL} {@link GL45#GL_LEQUAL} {@link GL45#GL_GREATER} {@link GL45#GL_NOTEQUAL} {@link GL45#GL_GEQUAL} {@link GL45#GL_ALWAYS}</p>
+     * <p>{@link GL45#GL_NEVER} {@link GL45#GL_LESS} {@link GL45#GL_EQUAL} {@link GL45#GL_LEQUAL} {@link GL45#GL_GREATER} {@link GL45#GL_NOTEQUAL} {@link GL45#GL_GEQUAL} {@link GL45#GL_ALWAYS}</p>
      *
      * @return the parameter object
      */

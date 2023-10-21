@@ -1,7 +1,8 @@
-package globj;
+package com.maxwell_dev.globj;
+
+import org.lwjgl.opengl.GL45;
 
 import static org.lwjgl.opengl.GL45.*;
-import org.lwjgl.opengl.GL45;
 
 public class Renderbuffer implements glInterface {
     private final int id;

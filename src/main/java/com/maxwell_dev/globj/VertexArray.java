@@ -1,6 +1,7 @@
-package globj;
+package com.maxwell_dev.globj;
 
-import static org.lwjgl.opengl.GL45.*;
+import static org.lwjgl.opengl.GL45.glCreateVertexArrays;
+import static org.lwjgl.opengl.GL45.glDeleteVertexArrays;
 
 public class VertexArray implements glInterface {
     private final int id;

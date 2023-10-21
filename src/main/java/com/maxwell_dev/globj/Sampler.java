@@ -1,8 +1,8 @@
-package globj;
-
-import static org.lwjgl.opengl.GL45.*;
+package com.maxwell_dev.globj;
 
 import java.nio.FloatBuffer;
+
+import static org.lwjgl.opengl.GL45.*;
 
 public class Sampler implements glInterface {
     private final int id;
