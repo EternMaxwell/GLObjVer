@@ -59,7 +59,7 @@ public class Scissor {
         this.indexed = indexed;
         if (indexed) {
             scissor = null;
-            scissorIndexed = new LinkedList<RecBinding>();
+            scissorIndexed = new LinkedList<>();
         } else {
             scissor = new RecBinding();
             scissorIndexed = null;
@@ -71,6 +71,8 @@ public class Scissor {
     }
 
     public RecBinding scissor(int index) {
+        if(!indexed)
+            return null;
         if (index > this.scissorIndexed.size())
             for (int i = this.scissorIndexed.size(); i <= index; i++)
                 this.scissorIndexed.add(new RecBinding());
