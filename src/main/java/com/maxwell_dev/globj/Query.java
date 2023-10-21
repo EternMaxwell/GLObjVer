@@ -10,8 +10,6 @@ public class Query implements glInterface {
 
     /**
      * create a query object
-     *
-     * @param target the query target
      */
     public Query() {
         id = glGenQueries();

@@ -1,7 +1,7 @@
 package com.maxwell_dev.globj.texture;
 
-import globj.Buffer;
-import globj.Texture;
+import com.maxwell_dev.globj.Buffer;
+import com.maxwell_dev.globj.Texture;
 
 import static org.lwjgl.opengl.GL45.*;
 

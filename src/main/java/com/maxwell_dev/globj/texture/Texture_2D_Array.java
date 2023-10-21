@@ -1,6 +1,6 @@
 package com.maxwell_dev.globj.texture;
 
-import globj.Texture;
+import com.maxwell_dev.globj.Texture;
 
 import static org.lwjgl.opengl.GL45.GL_TEXTURE_2D_ARRAY;
 
